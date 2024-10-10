@@ -6,6 +6,7 @@ public class AnimationSequenceController : MonoBehaviour
 {
     int count = 0;
     int z = 0;
+    int x = 0;
     // Referencias a los Animators
     public Animator contrincanteAnimator;  // Primer Animator
     public Animator companeroAnimator;     // Segundo Animator
