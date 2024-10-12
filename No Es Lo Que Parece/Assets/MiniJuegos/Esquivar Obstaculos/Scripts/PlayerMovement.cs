@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement; // Necesario para cambiar de escena
 
 public class PlayerMovement : MonoBehaviour
 {
+    int x = 0;
     public float moveSpeed = 10f; // Velocidad del jugador al moverse entre los carriles
     public float laneDistance = 3f; // Distancia entre los dos carriles
     private int currentLane = 0; // 0 es el carril izquierdo, 1 es el carril derecho
