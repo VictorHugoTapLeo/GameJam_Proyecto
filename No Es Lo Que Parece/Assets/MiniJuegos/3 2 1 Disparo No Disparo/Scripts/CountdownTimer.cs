@@ -8,6 +8,7 @@ public class CountdownTimer : MonoBehaviour
     public Text countdownText; // Texto UI para mostrar el tiempo restante
     public ImageDegradeTimer imageDegradeTimer; // Referencia al script ImageDegradeTimer
     public GameObject canvas; // Referencia al canvas que deseas desactivar
+    int x = 0;
     private void Start()
     {
         StartCoroutine(StartCountdown());
