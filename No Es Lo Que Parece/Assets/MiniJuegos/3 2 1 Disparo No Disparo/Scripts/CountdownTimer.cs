@@ -13,10 +13,6 @@ public class CountdownTimer : MonoBehaviour
     {
         StartCoroutine(StartCountdown());
     }
-    void CallAt(int countdownTime)
-    {
-
-    }
     private IEnumerator StartCountdown()
     {
         int currentTime = countdownTime;
