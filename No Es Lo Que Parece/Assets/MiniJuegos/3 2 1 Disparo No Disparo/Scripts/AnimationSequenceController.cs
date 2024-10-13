@@ -8,6 +8,7 @@ public class AnimationSequenceController : MonoBehaviour
     int z = 0;
     int x = 0;
     int a= 0;
+    float q = 0;
     // Referencias a los Animators
     public Animator contrincanteAnimator;  // Primer Animator
     public Animator companeroAnimator;     // Segundo Animator
